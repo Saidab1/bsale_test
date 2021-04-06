@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bsale Shop es una aplicación donde el usuario puede encontrar diversos productos ordenados por categoría. 
 
-Things you may want to cover:
+El backend fue implmentado en Ruby on rails y el fronted con vanilla JavaScript, HTML y CSS. 
 
-* Ruby version
+Para correr el API: 
 
-* System dependencies
+  *bundle install
 
-* Configuration
+  *sistema de gestion de base de datos MySQL. 
 
-* Database creation
+  *rails s
 
-* Database initialization
+  *endpoints:
+      --> /products 
+      --> /categories
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+La API se encuentra disponible en Heroku por medio del siguiente enlace: https://bsale-test-api.herokuapp.com o si deseas hacerlo localmente emplea el enlace http://localhost:3000 
 
-* Deployment instructions
+Si deseas conocer un poco más de la aplicación y del uso de la API entra al siguiente enlace:
+ https://docs.google.com/document/d/1XV7mrYz_KT7rANBWk1C5RA_2NL5F5xlxRY_6Q9pQfCo/edit?usp=sharing
 
-* ...
+
+ Para ver la app en funcionamiento puedes acceder a https://bsale-shop.netlify.app/ o si deseas hacerlo localmente puedes emplear  en tu terminal npx serve -l 5000 Client 
