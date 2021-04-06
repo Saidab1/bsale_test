@@ -150,3 +150,57 @@ body {
   height: 40px;
   cursor: pointer;
 }
+
+@media (min-width: 936px) and (max-width: 1024px) {
+  .header_content,
+  .products_wrapper, .categories_wrapper {
+    max-width: 840px;
+  }
+
+  .products_wrapper {
+    justify-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 935px) {
+  .header_content,
+  .products_wrapper, .categories_wrapper {
+    max-width: 750px;
+    width: 90%;
+  }
+
+  .category {
+    width: 12%;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header_content {
+    width: 90%;
+  }
+
+  .store_logo {
+    width: 14%;
+    font-size: 18px;
+  }
+
+  .categories_wrapper {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .category {
+    font-size: 12px;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .products_wrapper {
+    width: 90%;
+  }
+
+  .product_container {
+    margin: 0px auto 20px;
+  }
+}
