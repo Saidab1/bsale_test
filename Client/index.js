@@ -32,4 +32,19 @@ function getCategories() {
     .catch((e) => alert(`${e}`));
 }
 
+function getProducts(path) {
+  
+  getData(path)
+    .then((data) => {
+      if (data.length === 0) {
+          return;
+      }
+      data.forEach((product) => {
+        createProduct(product);
+      });
+    })
+    .catch((e) => alert(`${e}`));
+}
+
+
 run();
