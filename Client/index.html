@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script type="module" src="./index.js"></script>
+
+    <title>Bsale Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_content">
+        <span class="store_logo">Bsale Shop</span>
+        <div class="search_wrapper">
+          <form class="search_form">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              required
+              placeholder="Busca productos por nombre"
+              class="search_input"
+            />
+            <button type="submit">
+              <span class="material-icons"> search </span>
+            </button>
+          </form>
+        </div>
+        <span class="material-icons"> shopping_cart </span>
+      </div>
+    </header>
+    <main class="main">
+      <div class="categories_wrapper"></div>
+      <div class="products_wrapper"></div>
+    </main>
+  </body>
+</html>
