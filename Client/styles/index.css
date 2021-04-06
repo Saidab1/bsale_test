@@ -56,3 +56,32 @@ body {
   background-color: #f9f3f3;
   min-height: calc(100vh - 60px);
 }
+
+.categories_wrapper {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin:0px auto 15px;
+  padding-top: 15px;
+  
+}
+
+.category {
+  width: 10%;
+  border-radius: 5px;
+  font-weight: bold;
+  border-color: #bbbbbb;
+  border-style: double;
+  color: #a05344;
+  background-color: #f5f4f4;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.category:hover, .category:focus {
+  background-color: #e6739f;
+  color: #fff;
+  border-color: transparent;
+   outline: transparent;
+}
