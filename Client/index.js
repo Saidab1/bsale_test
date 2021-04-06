@@ -2,9 +2,12 @@ import { createCategory } from "./modules/createCategory.js";
 import { productsWrapper, createProduct } from "./modules/createProduct.js";
 
 const apiRoot = "http://localhost:3000";
+const searchForm = document.querySelector(".search_form");
+let searchValue;
 
 function run() {
   getCategories();
+  getProducts("/products");
   
 }
 
@@ -25,7 +28,7 @@ function getCategories() {
       data.forEach((category) => {
         createCategory(category.name).addEventListener("click", () => {
           productsWrapper.textContent = "";
-          getProducts(`/products?category=${category.id}`, true);
+          getProducts(`/products?category=${category.id}`);
         });
       })
     )
@@ -45,6 +48,16 @@ function getProducts(path) {
     })
     .catch((e) => alert(`${e}`));
 }
+
+
+searchForm.addEventListener("submit", (Event) => {
+  Event.preventDefault();
+  productsWrapper.textContent = "";
+  const inputValue = Event.target.firstElementChild.value;
+  searchValue = inputValue;
+  getProducts(`/products?search=${inputValue}`);
+  Event.target.firstElementChild.value = "";
+});
 
 
 run();
