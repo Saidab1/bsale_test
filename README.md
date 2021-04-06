@@ -8,7 +8,7 @@ Para correr el API:
 
   *bundle install
 
-  *sistema de gestion de base de datos MySQL. 
+  *sistema de gestión de base de datos MySQL. 
 
   *rails s
 
