@@ -1,4 +1,4 @@
-function createCategory(name) {
+export function createCategory(name) {
   const categoriesWrapper = document.querySelector(".categories_wrapper");
   const categoryButton = document.createElement("button");
   categoryButton.textContent = name;
@@ -7,5 +7,3 @@ function createCategory(name) {
 
   return categoryButton;
 }
-
-export { createCategory };
