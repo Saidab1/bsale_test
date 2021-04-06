@@ -49,5 +49,4 @@ test:
 #
 production:
   <<: *default
-  username: bsale_test
-  password: <%= ENV['BSALE_TEST_API_DATABASE_PASSWORD'] %>
+

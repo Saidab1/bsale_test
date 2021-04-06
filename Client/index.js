@@ -2,7 +2,7 @@ import { createCategory } from "./modules/createCategory.js";
 import { productsWrapper, createProduct } from "./modules/createProduct.js";
 import { showNoResults } from "./modules/noResultsFound.js";
 
-const apiRoot = "http://localhost:3000";
+const apiRoot = "https://glacial-headland-68716.herokuapp.com";
 
 const searchForm = document.querySelector(".search_form");
 const logo = document.querySelector(".store_logo");
