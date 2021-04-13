@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
 
-  #GET /products
+  #GET /products queryParameters: search, page, category
   def index
     products = Product.all.page(params[:page]).per(12)
 
