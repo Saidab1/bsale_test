@@ -19,7 +19,9 @@ Para correr el API:
 
 La API se encuentra disponible en Heroku por medio del siguiente enlace: https://bsale-test-api.herokuapp.com o si deseas hacerlo localmente emplea el enlace http://localhost:3000 
 
-Si deseas conocer un poco más de la aplicación y del uso de la API entra al siguiente enlace:
+Para conocer más a detalle la API entra al siguiente link: https://saida.stoplight.io/docs/bsale/reference/Bsale-API.v1.yaml
+
+Si deseas conocer un poco más de la aplicación entra al siguiente enlace:
  https://docs.google.com/document/d/1XV7mrYz_KT7rANBWk1C5RA_2NL5F5xlxRY_6Q9pQfCo/edit?usp=sharing
 
 
